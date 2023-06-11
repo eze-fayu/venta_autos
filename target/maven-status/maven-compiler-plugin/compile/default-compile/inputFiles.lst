@@ -1,0 +1,10 @@
+/home/ezequiel/NetBeansProjects/Proyecto_1/src/main/java/ezequiel/faiella/proyecto_1/Proyecto_1.java
+/home/ezequiel/NetBeansProjects/Proyecto_1/src/main/java/ezequiel/faiella/proyecto_1/igu/Principal.java
+/home/ezequiel/NetBeansProjects/Proyecto_1/src/main/java/ezequiel/faiella/proyecto_1/persistencia/exceptions/IllegalOrphanException.java
+/home/ezequiel/NetBeansProjects/Proyecto_1/src/main/java/ezequiel/faiella/proyecto_1/logica/Automovil.java
+/home/ezequiel/NetBeansProjects/Proyecto_1/src/main/java/ezequiel/faiella/proyecto_1/persistencia/exceptions/NonexistentEntityException.java
+/home/ezequiel/NetBeansProjects/Proyecto_1/src/main/java/ezequiel/faiella/proyecto_1/igu/AltaAuto.java
+/home/ezequiel/NetBeansProjects/Proyecto_1/src/main/java/ezequiel/faiella/proyecto_1/persistencia/AutomovilJpaController.java
+/home/ezequiel/NetBeansProjects/Proyecto_1/src/main/java/ezequiel/faiella/proyecto_1/persistencia/exceptions/PreexistingEntityException.java
+/home/ezequiel/NetBeansProjects/Proyecto_1/src/main/java/ezequiel/faiella/proyecto_1/persistencia/ControladoraPersistencia.java
+/home/ezequiel/NetBeansProjects/Proyecto_1/src/main/java/ezequiel/faiella/proyecto_1/logica/Controladora.java
