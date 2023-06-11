@@ -1,8 +1,12 @@
 
 package ezequiel.faiella.proyecto_1.igu;
 
+import ezequiel.faiella.proyecto_1.logica.Controladora;
+
 public class AltaAuto extends javax.swing.JFrame {
 
+    Controladora control = new Controladora();
+    
     public AltaAuto() {
         initComponents();
     }
@@ -35,6 +39,12 @@ public class AltaAuto extends javax.swing.JFrame {
 
         jLabel2.setText("Modelo");
 
+        txt_modelo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt_modeloActionPerformed(evt);
+            }
+        });
+
         jLabel3.setText("Marca");
 
         jLabel4.setText("Motor");
@@ -47,6 +57,11 @@ public class AltaAuto extends javax.swing.JFrame {
 
         btn_agregar.setText("Agregar");
         btn_agregar.setName(""); // NOI18N
+        btn_agregar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_agregarActionPerformed(evt);
+            }
+        });
 
         btn_limpiar.setText("Limpiar");
 
@@ -145,6 +160,23 @@ public class AltaAuto extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btn_agregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_agregarActionPerformed
+
+    String modelo = txt_modelo.getText();
+    String marca = txt_marca.getText();
+    String motor = txt_motor.getText();
+    String color = txt_color.getText();
+    String patente = txt_patente.getText();
+    int cantPuertas = Integer.parseInt(txt_puertas.getText());
+    
+    control.agregarAutomovil(modelo, marca, motor, color, patente, cantPuertas);
+    
+    }//GEN-LAST:event_btn_agregarActionPerformed
+
+    private void txt_modeloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_modeloActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt_modeloActionPerformed
 
 
 
